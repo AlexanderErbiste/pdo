@@ -1,0 +1,16 @@
+CREATE DATABASE PROJETOPDO;
+USE PROJETOPDO;
+
+
+CREATE TABLE TB_USUARIOS(
+	ID_US int primary KEY auto_increment,
+    NOME_US varchar(100),
+    EMAIL_US varchar(100)
+);
+
+INSERT INTO TB_USUARIOS(NOME_US, EMAIL_US) 
+values ('ADRIANO', '@ADRIANO'),
+		('WILSON', '@WILSON'),
+        ('RAÍSSA', '@RAISSA');
+        
+SELECT * FROM TB_USUARIOS;
