@@ -9,8 +9,8 @@ CREATE TABLE TB_USUARIO
 );
 
 INSERT INTO TB_USUARIO(NOME_USUARIO, EMAIL_USUARIO)
-VALUES('Adriano', 'adrianinhozika@email.com'),
-('Wilson', 'wilsinhodocorre@email.com'),
-('Raissa', 'raissa@email.com');
+VALUES('Alexander', 'alexander@email.com'),
+('Waltinho', 'waltinho2@email.com'),
+('Weliton', 'welintonto@calvo.com');
 
 SELECT * FROM TB_USUARIO;
